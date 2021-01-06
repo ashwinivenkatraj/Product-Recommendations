@@ -60,7 +60,7 @@
   "variables": {
     "uniqueNamePrefix": "[toLower(uniqueString(subscription().subscriptionId, resourceGroup().name))]",
     "location": "[resourceGroup().location]",
-    "storageAccountName": "mtrecengstorage",
+    "storageAccountName": "mtrecommendationengineqa",
     "webSiteName": "MT-RecommendationEngine-QA",
     "appInsightsName": "MT-RecommendationEngine-QA-Insights",
     "hostingPlanName": "MT-RecommendationEngine-QA-appservplan",
